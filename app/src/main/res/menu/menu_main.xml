@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bcalabri.popularmovies.MainActivity">
+
+    <item
+        android:id="@+id/action_popular"
+        android:enabled="true"
+        android:title="@string/popular"
+        android:visible="true" />
+    <item
+        android:id="@+id/action_highest_rated"
+        android:enabled="true"
+        android:title="@string/highest_rated"
+        android:visible="true" />
+</menu>

@@ -1,0 +1,42 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="4dp"
+    android:layout_marginBottom="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false">
+
+        <ImageView
+            android:id="@+id/poster_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/movie_poster"
+            android:clickable="false" />
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            tools:text="Test Text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:typeface="normal"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:paddingBottom="8dp"
+            android:layout_below="@+id/poster_img"
+            android:gravity="center"
+            android:clickable="false" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
